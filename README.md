@@ -11,7 +11,7 @@
 
 ## Links
 
-This challenge is completely free. Please share the live link with anyone who will find it [useful for practice.](https://javascriptdon.github.io/frontendmentor-challenge/)
+This challenge is completely free. Please share the live link with anyone who will find it [useful for practice.](https://nimble-bubblegum-a8b300.netlify.app/)
 
 
 ## Author
