@@ -1,6 +1,7 @@
 # Frontend Mentor - Todo app
 
-<img width="1488" alt="dev" src="https://user-images.githubusercontent.com/101202952/195582196-f9324f68-1063-4ec1-81f5-8ac949f79e70.png">
+<img width="1647" alt="dev" src="https://user-images.githubusercontent.com/101202952/195841432-1982f0af-d4bc-4e46-a1b2-fe7de96209e3.png">
+
 
 ## Welcome! 👋
 
