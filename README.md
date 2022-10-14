@@ -12,7 +12,7 @@
 
 ## Links
 
-This challenge is completely free. Please share the live link with anyone who will find it [useful for practice.](https://javascriptdon.github.io/frontendmentor-challenge/)
+This challenge is completely free. Please share the live link with anyone who will find it [useful for practice.](https://scintillating-semifreddo-8396fc.netlify.app/)
 
 
 ## Author
