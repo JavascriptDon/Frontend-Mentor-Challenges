@@ -1,0 +1,162 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Frontend Mentor | E-commerce product page">
+    <header>
+      <div class="side-nav">
+        <img src="./images/icon-menu.svg" alt="icon-menu" class="icon-menu" />
+        <img src="./images/logo.svg" alt="logo" class="logo" />
+        <div class="menu">
+          <img
+            src="./images/icon-close.svg"
+            alt="icon-close"
+            class="icon-close"
+          />
+          <ul>
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="side-nav">
+        <div class="cart-avatar-box">
+          <div class="cart-badge">3</div>
+          <img src="./images/icon-cart.svg" alt="icon-cart" class="cart-icon" />
+        </div>
+        <img
+          src="./images/image-avatar.png"
+          alt="image-avatar"
+          class="avatar"
+        />
+      </div>
+    </header>
+    <div class="cart-box"></div>
+    <div class="cart-container">
+      <div class="cart-header">Cart</div>
+      <div class="cart-body">Your cart is empty.</div>
+    </div>
+    <main>
+      <div class="img-gallery">
+        <div class="arrow prev-arrow"></div>
+        <div class="arrow next-arrow"></div>
+        <div class="images">
+          <img src="./images/image-product-1.jpg" alt="image-product-1" />
+          <img src="./images/image-product-2.jpg" alt="image-product-2" />
+          <img src="./images/image-product-3.jpg" alt="image-product-3" />
+          <img src="./images/image-product-4.jpg" alt="image-product-4" />
+        </div>
+        <div class="thumbnail-images">
+          <div class="selected-image">
+            <img
+              src="./images/image-product-1-thumbnail.jpg"
+              alt="image-product-1"
+            />
+          </div>
+          <div>
+            <img
+              src="./images/image-product-2-thumbnail.jpg"
+              alt="image-product-2"
+            />
+          </div>
+          <div>
+            <img
+              src="./images/image-product-3-thumbnail.jpg"
+              alt="image-product-3"
+            />
+          </div>
+          <div>
+            <img
+              src="./images/image-product-4-thumbnail.jpg"
+              alt="image-product-4"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="product-container">
+        <h5>Sneaker Company</h5>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+        <div class="price-container">
+          <h1>$125.00</h1>
+          <div class="discount">50%</div>
+          <h4 class="old-price">$250.00</h4>
+        </div>
+        <div class="counter-checkout-container">
+          <div class="counter-container">
+            <img
+              src="./images/icon-minus.svg"
+              alt="icon-minus"
+              class="icon-minus"
+            />
+            <span class="quantity">0</span>
+            <img
+              src="./images/icon-plus.svg"
+              alt="icon-plus"
+              class="icon-plus"
+            />
+          </div>
+          <button class="big-btn add-to-cart">
+            <img
+              src="./images/icon-cart.svg"
+              alt="icon-cart"
+              class="white-cart"
+            />
+            <span>Add to cart</span>
+          </button>
+        </div>
+      </div>
+    </main>
+    <div class="gallery-overlay">
+      <div class="container">
+        <img
+          src="./images/icon-close.svg"
+          alt="icon-close"
+          class="close-overlay"
+        />
+        <div class="img-gallery">
+          <div class="arrow prev-arrow"></div>
+          <div class="arrow next-arrow"></div>
+          <div class="images">
+            <img src="./images/image-product-1.jpg" alt="image-product-1" />
+            <img src="./images/image-product-2.jpg" alt="image-product-2" />
+            <img src="./images/image-product-3.jpg" alt="image-product-3" />
+            <img src="./images/image-product-4.jpg" alt="image-product-4" />
+          </div>
+        </div>
+        <div class="thumbnail-images">
+          <div class="selected-image">
+            <img
+              src="./images/image-product-1-thumbnail.jpg"
+              alt="image-product-1"
+            />
+          </div>
+          <div>
+            <img
+              src="./images/image-product-2-thumbnail.jpg"
+              alt="image-product-2"
+            />
+          </div>
+          <div>
+            <img
+              src="./images/image-product-3-thumbnail.jpg"
+              alt="image-product-3"
+            />
+          </div>
+          <div>
+            <img
+              src="./images/image-product-4-thumbnail.jpg"
+              alt="image-product-4"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+</Layout>
