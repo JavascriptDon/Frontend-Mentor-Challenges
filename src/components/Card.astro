@@ -1,0 +1,164 @@
+<main class="Product-Preview-Wrapper">
+    <div class="Product-Preview-Wrapper--container">
+      <!--Product images-->
+    <picture>
+      <source 
+      media="(max-width: 679px)"
+      srcset="images/image-product-mobile.jpg">
+      <source
+      srcset="images/image-product-desktop.jpg">
+      <img src="images/image-product-desktop.jpg" alt="chanel-perfume">
+    </picture>
+    </div>
+     <!--Product Box-->
+    <div class="Product-Preview-Wrapper--box">
+      <p class="Product-Preview-Wrapper--name">Perfume</p>
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      Perfumer-Creator for the House of CHANEL.</p>
+      <div class="Product-Preview-Wrapper--priceBox">
+      <p class="Product-Preview-Wrapper--newPrice">$149.99</p>
+      <p class="Product-Preview-Wrapper--realPrice">$169.99</p>
+      </div>
+      <button class="Product-Preview-Wrapper--btn"><img src="images/icon-cart.svg" alt="" class="cart-img">Add to Cart</button>
+    </div>
+  </main>
+
+
+  <style>
+	@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+
+:root{
+    /*Primary*/
+    --clr-primary-cream: hsl(32, 37%, 92%);
+    --clr-primary-darkCyan: hsl(158, 36%, 37%);
+
+    /*Neutral*/
+    --clr-neutral-dark-blue:  hsl(212, 21%, 14%);
+    --clr-neutral-dark-grayish-blue: hsl(228, 12%, 48%);
+
+
+    --clr-white: hsl(0, 0%, 100%);
+    
+    /* Font Family */
+    --font-family--Fraunces: 'Fraunces', serif;
+    --font-family--Montserrat: "Montserrat", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--clr-primary-cream);
+    line-height: 1;
+    font-family: var(--font-family--Montserrat);
+}
+
+.Product-Preview-Wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1.3rem;
+  }
+  
+  
+  p {
+    color: var(--clr-neutral-dark-grayish-blue);
+    font-size: 14px;
+  }
+  
+  .Product-Preview-Wrapper--realPrice {
+    text-decoration: line-through;
+    margin-left: 1.7rem;
+  }
+  
+  .Product-Preview-Wrapper--box {
+    background-color: var(--clr-white);
+    padding: 1.8rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+  
+  .Product-Preview-Wrapper--name {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: 0.4rem;
+  }
+  
+  .Product-Preview-Wrapper--priceBox{
+    display: flex;
+    margin-top: 2.4rem;
+    align-items: center;
+  }
+  
+  .Product-Preview-Wrapper--box h1 {
+    font-family: var(--font-family--Fraunces);
+    color: var(--clr-neutral-dark-blue);
+  }
+  
+  .Product-Preview-Wrapper--container img {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    display: block;
+    
+  }
+  
+  .Product-Preview-Wrapper--newPrice {
+    font-family: var(--font-family--Fraunces);
+    font-weight: 700;
+    color: var(--clr-primary-darkCyan);
+    font-size: 2.5rem;
+  }
+  
+  .Product-Preview-Wrapper--btn {
+    border: 0;
+    background: var(--clr-primary-darkCyan);
+    color: var(--clr-white);
+    padding: 1rem 2rem;
+    border-radius: 0.7rem;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: inherit;
+    margin-top: 1.7rem;
+  }
+  
+  .Product-Preview-Wrapper--btn:hover {
+    background-color: var(--clr-primary-darkCyan);
+  }
+  
+  .cart-img {
+    margin-right: 0.5rem;
+  }
+  
+  p:nth-child(3) {
+    margin-top: 1.3rem;
+    line-height: 1.7;
+  }
+  
+  @media(min-width: 680px) {
+    .Product-Preview-Wrapper {
+      display: flex;
+      max-width: 670px;
+    }
+  
+      .Product-Preview-Wrapper--container img {
+        height: 100%;
+        width: 300px;
+        border-radius: 0.5rem 0 0 0.5rem;
+    }
+  
+    .Product-Preview-Wrapper--box{
+        border-radius: 0 0.5rem 0.5rem 0;
+    }
+  }
+</style>
+
