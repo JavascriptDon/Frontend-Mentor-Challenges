@@ -1,6 +1,7 @@
 # Frontend Mentor - News homepage
 
-![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
+<img width="1703" alt="dev" src="https://user-images.githubusercontent.com/101202952/198331780-374a248f-d312-4989-8054-5230281aeab7.png">
+
 
 ## Welcome! 👋
 
@@ -11,7 +12,7 @@
 
 ## Links
 
-This challenge is completely free. Please share the live link with anyone who will find it [useful for practice.](https://front-end-qrcomponent.netlify.app/)
+This challenge is completely free. Please share the live link with anyone who will find it [useful for practice.](https://funny-image-a7fcbb.netlify.app/)
 
 
 ## Author
